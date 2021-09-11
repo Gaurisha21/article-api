@@ -4,6 +4,7 @@ from newsapi.newsapi_client import NewsApiClient
 from bs4 import BeautifulSoup
 import requests
 import random
+import lxml
 
 app = Flask(__name__)
 
