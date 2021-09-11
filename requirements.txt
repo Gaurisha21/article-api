@@ -1,0 +1,6 @@
+flask
+newsapi
+bs4
+requests
+random
+gunicorn
