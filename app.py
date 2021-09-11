@@ -25,7 +25,7 @@ def women_health():
     length = len(all_articles['articles'])
     r1 = random.randint(0, length - 1)
     article = all_articles['articles'][r1]
-    source = article['source']['name']
+    sourceart = article['source']['name']
     title = article['title']
     link = article['url']
     imglink = article['urlToImage']
@@ -40,7 +40,7 @@ def women_health():
 
     return jsonify({'title': title,
                     'Content': x,
-                    'source': source,
+                    'source': sourceart,
                     'imglink': imglink})
     # render_template('index.html', source='{}'.format(source), title='{}'.format(title), Content='{}'.format(x))
 
@@ -54,7 +54,7 @@ def menstrual_health():
     length = len(all_articles['articles'])
     r1 = random.randint(0, length - 1)
     article = all_articles['articles'][r1]
-    source = article['source']['name']
+    sourceart = article['source']['name']
     title = article['title']
     link = article['url']
     imglink = article['urlToImage']
@@ -69,7 +69,7 @@ def menstrual_health():
 
     return jsonify({'title': title,
                     'Content': x,
-                    'source': source,
+                    'source': sourceart,
                     'imglink': imglink})
     # render_template('index.html', source='{}'.format(source), title='{}'.format(title), Content='{}'.format(x))
 
@@ -83,7 +83,7 @@ def gynaecology():
     length = len(all_articles['articles'])
     r1 = random.randint(0, length - 1)
     article = all_articles['articles'][r1]
-    source = article['source']['name']
+    sourceart = article['source']['name']
     title = article['title']
     link = article['url']
     imglink = article['urlToImage']
@@ -98,7 +98,7 @@ def gynaecology():
 
     return jsonify({'title': title,
                     'Content': x,
-                    'source': source,
+                    'source': sourceart,
                     'imglink': imglink})
     # render_template('index.html', source='{}'.format(source), title='{}'.format(title), Content='{}'.format(x))
 
@@ -112,7 +112,7 @@ def sustainablemenstruation():
     length = len(all_articles['articles'])
     r1 = random.randint(0, length - 1)
     article = all_articles['articles'][r1]
-    source = article['source']['name']
+    sourceart = article['source']['name']
     title = article['title']
     link = article['url']
     imglink = article['urlToImage']
@@ -127,7 +127,7 @@ def sustainablemenstruation():
 
     return jsonify({'title': title,
                     'Content': x,
-                    'source': source,
+                    'source': sourceart,
                     'imglink': imglink})
     # render_template('index.html', source='{}'.format(source), title='{}'.format(title), Content='{}'.format(x))
 
