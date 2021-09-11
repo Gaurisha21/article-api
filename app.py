@@ -1,5 +1,6 @@
 from flask import Flask, render_template, jsonify
-from newsapi import NewsApiClient
+# from newsapi import NewsApiClient
+from newsapi.newsapi_client import NewsApiClient
 from bs4 import BeautifulSoup
 import requests
 import random
