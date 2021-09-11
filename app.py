@@ -3,7 +3,6 @@ from newsapi import NewsApiClient
 from bs4 import BeautifulSoup
 import requests
 import random
-from py import process
 
 app = Flask(__name__)
 
@@ -133,4 +132,4 @@ def sustainablemenstruation():
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False)
-    app.listen(process.env.PORT)
+    # app.listen(process.env.PORT)
