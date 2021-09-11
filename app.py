@@ -36,7 +36,7 @@ def women_health():
     text_elements = [t for t in soup.find_all(text=True) if t.parent.name in blacklist]
     x = ""
     for i in text_elements:
-        x = x + i + " \n\n "
+        x = x + i + " <br><br>"
 
     return jsonify({'title': title,
                     'Content': x,
