@@ -8,7 +8,7 @@ import lxml
 
 app = Flask(__name__)
 
-newsapi = NewsApiClient(api_key='f92ab52775a4452fbf21b768de65c9fc')
+newsapi = NewsApiClient(api_key='84e223c1c5e94c52988f5e01671435fa')
 
 
 @app.route('/', methods=['GET'])
